@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222222;
+}
+.reservation {
+  padding: 5px 100px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #555;
+  background: #c11325;
+  color: #fff;
+  font-size: 18px;
+}
+.title {
+  text-align: center;
+  
+}
+.reservation h2 {
+  background: #fff;
+  color: rgb(2, 2, 2);
+  width: 200px;
+  text-align: center;
+  
+}
+
+.reservation input {
+  padding: 10px;
+  width: 270px;
+}
+.reservation .cancel {
+  background-color: #222222;
+    color: white;
+   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  text-align: center;
+  width: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+  input[type=submit] {
+    background-color: #222222;
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
